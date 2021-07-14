@@ -1,0 +1,504 @@
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800;900&display=swap");
+    body {
+        font-family: Poppins, sans-serif;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .header {
+        width: 100%;
+        height: 677px;
+        left: 0px;
+        top: 0px;
+        background: rgb(58, 16, 172);
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .navbar {
+        margin-top: 20px;
+        margin-right: 100px;
+    }
+    
+    a.log-in {
+        text-decoration: none;
+        color: white;
+        border: 1px solid beige;
+    }
+    
+    .login {
+        margin-top: 10px;
+    }
+    
+    a.log-in {
+        padding: 4px 10px;
+        text-decoration: none;
+        color: white;
+        background: rgb(255 47 0);
+        border: 1px solid rgb(255 47 0);
+        border-radius: 5px;
+        transition: 0.5s;
+    }
+    
+    .log-in:hover {
+        background: rgb(6, 61, 61);
+        border: 1px solid rgb(6, 61, 61);
+    }
+    
+    .login {
+        margin-top: 20px;
+    }
+    
+    a.nava {
+        margin-right: 30px;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .football {
+        color: #ff6600;
+    }
+    
+    .head-caption {
+        position: absolute;
+        width: 485px;
+        height: 230px;
+        left: 155px;
+        top: 130px;
+        font-weight: bold;
+        font-size: 63px;
+        line-height: 80px;
+        color: white;
+    }
+    
+    .button-1 {
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 10px 24px;
+        position: absolute;
+        width: 110px;
+        height: 25px;
+        left: 156px;
+        top: 500px;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        border: 1px solid orangered;
+        color: white;
+        background-color: orangered;
+        border-radius: 5px;
+        font-size: 16px;
+        transition: all 0.5s ease 0s;
+    }
+    
+    .button-1:hover {
+        border-color: rgb(10, 158, 124);
+        background-color: rgb(10, 158, 124);
+    }
+    
+    .head-img {
+        position: absolute;
+        width: 538px;
+        height: 420px;
+        left: 685px;
+        top: 175px;
+    }
+    
+    .section-1 {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 153px;
+        margin-top: 40px;
+    }
+    
+    .players-info {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        width: 280px;
+        height: 440px;
+        left: 180px;
+        margin: 15px;
+        background: rgb(255, 255, 255);
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 40px;
+    }
+    
+    .player-img {
+        width: 280px;
+        height: 240px;
+    }
+    
+    .section-2 {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        padding: 60px;
+        margin-top: 25px;
+    }
+    
+    .copa21 img {
+        width: 567px;
+        height: 427px;
+    }
+    
+    .copa {
+        width: 490px;
+        height: 390px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .america img {
+        width: 567px;
+        height: 427px;
+    }
+    
+    .copabutton {
+        display: flex;
+        text-decoration: none;
+        text-align: center;
+        border: 1px solid orangered;
+        color: white;
+        background-color: orangered;
+        padding: 10px 24px;
+        width: 110px;
+        height: 25px;
+        border-radius: 5px;
+        font-size: 16px;
+        transition: all 0.5s ease 0s;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-top: 15px;
+    }
+    
+    .copabutton:hover {
+        border-color: rgb(10, 158, 124);
+        background-color: rgb(10, 158, 124);
+    }
+    
+    .copah2 {
+        color: rgb(89, 87, 87);
+        font-size: 35px;
+    }
+    
+    .copap {
+        font-size: 16px;
+    }
+    
+    .section-3 {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        padding: 60px;
+        margin-top: 40px;
+    }
+    
+    .euro {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: stretch;
+        justify-content: flex-start;
+    }
+    
+    .euroimg {
+        width: 75%;
+    }
+    
+    h2.euroh2 {
+        font-size: 35px;
+        margin-top: -60px;
+        color: rgb(75 78 78);
+    }
+    
+    p.europ {
+        font-size: 16px;
+    }
+    
+    .eurobutton {
+        display: flex;
+        text-decoration: none;
+        text-align: center;
+        border: 1px solid orangered;
+        color: white;
+        background-color: orangered;
+        padding: 10px 24px;
+        width: 110px;
+        height: 25px;
+        border-radius: 5px;
+        font-size: 16px;
+        transition: all 0.5s ease 0s;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-top: 15px;
+    }
+    
+    .eurobutton:hover {
+        border-color: rgb(10, 158, 124);
+        background-color: rgb(10, 158, 124);
+    }
+    
+    .fifa22 {
+        text-align: center;
+    }
+    
+    h1.fifa22h1 {
+        font-size: 50px;
+        color: rgb(123 123 123);
+    }
+    
+    p.fifa22p {
+        width: 680px;
+        font-size: 20px;
+        text-align: center;
+        height: 50px;
+        margin-left: 322px;
+        margin-top: -40px;
+    }
+    
+    img.fifa-img {
+        width: 100%;
+        margin-top: 40px;
+    }
+    
+    .fifaimg-work {
+        position: absolute;
+        margin-top: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: stretch;
+        line-height: 0;
+        margin-left: 16px;
+    }
+    
+    h1.dateh1 {
+        font-size: 40px;
+        font-weight: 900;
+        margin: 30px;
+        color: white;
+    }
+    
+    p.datep {
+        font-size: 20px;
+        font-weight: 900;
+        margin-top: 0px;
+        padding: 0px;
+        margin-bottom: 0px;
+        margin-left: 32px;
+        color: white;
+    }
+    
+    article.quater-fifa {
+        display: flex;
+        flex-flow: column wrap;
+    }
+    
+    img.logo {
+        width: 79%;
+    }
+    
+    .logo-fifa {
+        position: absolute;
+        display: flex;
+        margin-top: 45px;
+        margin-left: 1175px;
+    }
+    
+    span.tuer {
+        color: white;
+        font-size: 26px;
+        font-weight: 800;
+    }
+    
+    .days {
+        color: rgb(110, 252, 252);
+        font-size: 55px;
+        font-weight: bold;
+    }
+    
+    span.day {
+        color: white;
+        font-size: 20px;
+        font-weight: 900;
+    }
+    
+    .fifa-time {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        margin-top: 45px;
+        margin-left: 50px;
+    }
+    
+    .fifa-nav {
+        text-align: center;
+        padding: 10px;
+        margin-top: 10px;
+        border: 1px solid black;
+    }
+    
+    .fifa-nav-a {
+        text-decoration: none;
+        margin-right: 20px;
+        font-size: 1.5em;
+        font-weight: bold;
+        color: brown;
+        transition: all 0.5s ease 0s;
+    }
+    
+    .fifa-nav-a:hover {
+        color: rgb(28, 143, 133);
+        border: 2px solid rgb(30, 150, 140);
+        border-radius: 30px;
+    }
+    
+    footer.footer {
+        text-align: center;
+    }
+    
+    img.footer-img {
+        width: 40%;
+    }
+    
+    p.footerp {
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(25, 89, 143);
+    }
+    
+    footer.footer {
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    img.footer-img {
+        width: 40%;
+    }
+    
+    p.footerp {
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(25, 89, 143);
+    }
+    
+    i.fab {
+        text-decoration: none;
+        color: rgb(102, 96, 96);
+        margin-right: 20px;
+        font-size: 1.5em;
+        transition: all 1s ease 0s;
+    }
+    
+    i.fab:hover {
+        color: orangered;
+    }
+    
+    .fifa22h1 {
+        transition: 1.5s;
+    }
+    
+    .fifa22h1:hover {
+        /* box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee inset; */
+        text-shadow: 0 0 5px #f73a00, 0 0 5px #f73a00;
+    }
+    /* media Queries */
+    /* ----------------
+  Mobile devices
+------------------ */
+    
+    @media only screen and(max-width:688px) {
+        body {
+            width: 100% !important;
+        }
+        .header {
+            display: flex;
+            flex-direction: column;
+            width: 360px;
+            height: 695px;
+        }
+        .head-info {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        .nav {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        .header {
+            width: 100%;
+        }
+        .caption {
+            width: 100%;
+            height: 695px;
+        }
+        .head-caption {
+            display: flex;
+            flex-direction: column;
+            grid-row-gap: 50px;
+            justify-content: center;
+        }
+        .head-img {
+            display: flex;
+            /* position: absolute; */
+            width: 85%;
+            /* height: 420px; */
+            left: 5px;
+            top: 375px;
+            flex-direction: column;
+        }
+        .button-1 {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 0px 2px;
+            position: absolute;
+            width: 110px;
+            /* height: 25px; */
+            left: 10px;
+            top: 330px;
+            text-decoration: none;
+            text-align: center;
+            display: block;
+            border: 1px solid rgb(255 69 0);
+            color: rgb(255 255 255);
+            background-color: rgb(255 69 0);
+            border-radius: 5px;
+            font-size: 16px;
+            transition: all 0.5s ease 0s;
+        }
+        .head-caption {
+            display: flex;
+            position: absolute;
+            width: 100%;
+            /* height: 230px; */
+            left: 5px;
+            top: 160px;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 35px;
+            color: rgb(255 255 255);
+            flex-direction: column;
+        }
+        .section-1 {
+            display: flex;
+            flex-wrap: nowrap;
+            padding-left: 153px;
+            margin-top: 40px;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
